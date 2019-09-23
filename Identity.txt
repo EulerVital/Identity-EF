@@ -1,0 +1,21 @@
+1 - Gerar arquivos que o Identity esconde, para que possamos customizar
+
+1.1 Instalando a ferramenta global
+
+	dotnet tool install -g dotnet-asp-codegenerator --verison 2.2
+
+1.2 Add pacote e restaura projeto
+
+	Microsofit.VisualStudio.Web.CodeGeneration.Design
+
+1.3 Lista arquivos que podem ser gerados
+
+	dotnet aspnet-codegenerator identity --listFiles
+
+1.4 Gera arquivo especificado
+
+	dotnet aspnet-codegenerator identity --files <nomeArquivo (Account.Register)>
+
+A versão não é obrigatória, necessária caso o projeto seja da versão mais antiga.
+
+

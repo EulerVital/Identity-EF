@@ -5,6 +5,13 @@ VisualStudioVersion = 16.0.29306.81
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Identity", "Identity\Identity.csproj", "{0082B6D0-08DF-49B8-9058-2449CC0E5A8F}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Docs", "Docs", "{2AD91098-4304-4D2C-93DC-8EA3D03328B1}"
+	ProjectSection(SolutionItems) = preProject
+		Identity.txt = Identity.txt
+		..\..\Secao4\EfCore\EfCore\Migrations.txt = ..\..\Secao4\EfCore\EfCore\Migrations.txt
+		..\..\Secao4\EfCore\EfCore\Problemas_IISExpress.txt = ..\..\Secao4\EfCore\EfCore\Problemas_IISExpress.txt
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
